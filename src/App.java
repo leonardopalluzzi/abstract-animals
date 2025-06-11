@@ -5,7 +5,7 @@ public class App {
         AbstractAnimal bottogianoDolphin = new Dolphin("Bottogiano Dolphin", 40, 90.5f, "Bottogiano");
 
         System.out.println("The Dolphin is:");
-        bottogianoDolphin.eat();
+        bottogianoDolphin.sleep();
         System.out.println("---------------");
         System.out.println("The Eagle is:");
         americanEagle.eat();

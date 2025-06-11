@@ -1,4 +1,4 @@
-public class Dolphin extends AbstractAnimal {
+public class Dolphin extends AbstractAnimal implements ISwimming {
 
     public Dolphin(String name, int age, float weight, String race) {
         super(name, age, weight, race);
@@ -22,6 +22,12 @@ public class Dolphin extends AbstractAnimal {
     @Override
     void eat() {
         System.out.println("Eating fishes");
+
+    }
+
+    @Override
+    public void swimming() {
+        System.out.println("I am swimming");
 
     }
 

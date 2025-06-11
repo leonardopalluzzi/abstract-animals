@@ -1,4 +1,4 @@
-public class Sparrow extends AbstractAnimal {
+public class Sparrow extends AbstractAnimal implements IFlying {
 
     protected int wingsOpening;
 
@@ -32,6 +32,12 @@ public class Sparrow extends AbstractAnimal {
     @Override
     void eat() {
         System.out.println("Eating cereals");
+
+    }
+
+    @Override
+    public void flying() {
+        System.out.println("I am flying");
 
     }
 
